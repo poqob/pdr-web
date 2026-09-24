@@ -5,24 +5,24 @@
    ========================================================================== */
 
 :root {
-  /* Renk Paleti - Doğal, Dengeli, Güven Verici */
-  --bg-app: #f9f8f6;
-  --bg-card: #ffffff;
-  --bg-subtle: #f3f1ec;
-  --bg-hover: #ece9e1;
-  --bg-photo: #ece9e2;
+  /* Renk Paleti - Sıcak Doğal Bej & Keten Zemin */
+  --bg-app: #f4efe6;          /* Belirgin, sakin, sıcak doğal bej */
+  --bg-card: #ffffff;         /* Saf beyaz kartlar (bej zemin üzerinde net ve ferah) */
+  --bg-subtle: #eae3d6;       /* Kart içi hafif bej alanlar */
+  --bg-hover: #e0d8ca;
+  --bg-photo: #e9e2d5;        /* Fotoğraf kabini bej zemin */
   
-  --text-main: #1d2125;
-  --text-body: #444a51;
-  --text-muted: #6e7681;
-  --text-light: #8d95a0;
+  --text-main: #191c1f;
+  --text-body: #3c4249;
+  --text-muted: #646b75;
+  --text-light: #88909c;
   
-  --border-subtle: #e6e3dc;
-  --border-medium: #d4d0c7;
+  --border-subtle: #ded6c8;
+  --border-medium: #c7beae;
   
   --accent: #234d3f;          /* Sakin orman / adaçayı yeşili */
   --accent-hover: #19382d;
-  --accent-surface: #eaf1ed;
+  --accent-surface: #e5ede8;
   
   --radius-sm: 6px;
   --radius-md: 10px;
@@ -89,7 +89,7 @@ body {
   padding-top: 3.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--border-subtle);
-  background-color: #ffffff;
+  background-color: var(--bg-app);
 }
 
 .institution-meta {
@@ -538,7 +538,7 @@ body {
 
 .info-columns {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -622,7 +622,7 @@ body {
 /* Alt Bilgi / Footer */
 .footer {
   border-top: 1px solid var(--border-subtle);
-  background-color: #ffffff;
+  background-color: var(--bg-app);
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }

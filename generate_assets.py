@@ -72,7 +72,7 @@ generate_png_favicon(192, "favicon.png")
 # ==============================================================================
 def generate_og_image():
     W, H = 1200, 630
-    og = Image.new("RGB", (W, H), "#f9f8f6")
+    og = Image.new("RGB", (W, H), "#f4efe6")
     draw = ImageDraw.Draw(og)
     
     # Üst ve Alt Şık Çerçeve Çizgisi
@@ -80,7 +80,7 @@ def generate_og_image():
     draw.rectangle([0, H - 10, W, H], fill="#234d3f")
     
     # İç Kart Çerçevesi
-    draw.rounded_rectangle([35, 35, W - 35, H - 35], radius=20, fill="#ffffff", outline="#e6e3dc", width=1)
+    draw.rounded_rectangle([35, 35, W - 35, H - 35], radius=20, fill="#ffffff", outline="#ded6c8", width=1)
     
     # Yazı Tipleri (Noto Sans & Noto Serif - Tam Türkçe desteği)
     font_serif_bold = ImageFont.truetype("/usr/share/fonts/google-noto/NotoSerif-Bold.ttf", 46)
@@ -98,7 +98,7 @@ def generate_og_image():
     draw.text((75, 140), "Bireyle Psikolojik Danışma", fill="#1d2125", font=font_serif_bold)
     
     # 3. Alt Başlık
-    draw.text((75, 205), "Akademik Süpervizyon Eşliğinde Ücretsiz Danışma Desteği", fill="#234d3f", font=font_sans_bold)
+    draw.text((75, 205), "Akademik Süpervizyon Eşliğinde Ücretsiz Danışma Hizmeti", fill="#234d3f", font=font_sans_bold)
     
     # 4. Açıklama Paragrafı
     desc = [
@@ -113,7 +113,7 @@ def generate_og_image():
         
     # 5. Güven Rozetleri (Hafif arka planlı rozetler)
     badges = [
-        "Tamamen Ücretsiz",
+        "Ücretsiz Danışma Hizmeti",
         "Uzman Süpervizör Gözetimi",
         "Etik ve Danışan Gizliliği"
     ]
@@ -121,15 +121,15 @@ def generate_og_image():
     by = 360
     for b in badges:
         # Mini kutucuk
-        draw.rounded_rectangle([bx, by, bx + 195, by + 36], radius=8, fill="#eaf1ed", outline="#d1e3d9", width=1)
-        draw.text((bx + 14, by + 8), b, fill="#234d3f", font=font_small)
+        draw.rounded_rectangle([bx, by, bx + 195, by + 36], radius=8, fill="#e5ede8", outline="#d1e3d9", width=1)
+        draw.text((bx + 12, by + 8), b, fill="#234d3f", font=font_small)
         bx += 205
 
     # 6. İletişim & Lokasyon Bilgisi
-    draw.line([(75, 425), (690, 425)], fill="#e6e3dc", width=1)
+    draw.line([(75, 425), (690, 425)], fill="#ded6c8", width=1)
     draw.text((75, 445), "İletişim: Telefonla arama veya doğrudan e-posta ile başvuru", fill="#1d2125", font=font_sans_semibold)
     draw.text((75, 478), "Konum: Sakarya Üniversitesi Hendek Eğitim Fakültesi / Yüz Yüze ve Online", fill="#6e7681", font=font_small)
-    draw.text((75, 510), "Kapsam: 4 Danışman Adayı  •  Haftalık Düzenli Seanslar", fill="#234d3f", font=font_small)
+    draw.text((75, 510), "Güvence: Seanslar süpervizyon video kaydı ve gizlilik kapsamındadır", fill="#234d3f", font=font_small)
 
     # 7. Sağ Tarafta 4 Danışmanın Zarif Portre Kartları (2x2)
     candidates = [
