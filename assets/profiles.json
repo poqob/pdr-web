@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "sinem-isik",
+    "name": "Sinem Işık",
+    "title": "Psikolojik Danışman Adayı",
+    "supervisor": "Prof. Dr. Eyüp Çelik",
+    "service": "Bireyle Psikolojik Danışma",
+    "format": "Ücretsiz danışma desteği",
+    "description": "Kendinizi daha iyi tanımak, yaşadığınız zorlukları anlamlandırmak ve duygu, düşünce ve davranışlarınızı keşfetmek için Bireyle Psikolojik Danışma dersim kapsamında Prof. Dr. Eyüp Çelik süpervizörlüğünde vermiş olduğum ÜCRETSİZ danışma desteğinden yararlanabilirsiniz.",
+    "phone": "0545 350 29 60",
+    "email": "sinem.isik2@ogr.sakarya.edu.tr"
+  },
+  {
+    "slug": "zeynep-rana-filiz",
+    "name": "Zeynep Rana Filiz",
+    "title": "Psikolojik Danışman Adayı",
+    "supervisor": "Prof. Dr. Eyüp Çelik",
+    "service": "Bireyle Psikolojik Danışma",
+    "format": "Ücretsiz danışma desteği",
+    "description": "Kendinizi daha iyi tanımak, yaşadığınız zorlukları anlamlandırmak ve duygu, düşünce ve davranışlarınızı farketmek için Bireyle Psikolojik Danışma dersim kapsamında Prof. Dr. Eyüp ÇELİK süpervizörlüğünde ücretsiz danışma desteği vermekteyim.",
+    "phone": "0551 184 67 15",
+    "email": "rana.filiz@ogr.sakarya.edu.tr"
+  },
+  {
+    "slug": "rumeysa-kiliclar",
+    "name": "Rumeysa Kılıçlar",
+    "title": "Psikolojik Danışman Adayı",
+    "supervisor": "Doç. Dr. Betül Düşünceli",
+    "service": "Bireyle Psikolojik Danışma",
+    "format": "Ücretsiz, yüz yüze veya online psikolojik danışma hizmeti",
+    "description": "Bireyle Psikolojik Danışma dersi kapsamında Doç. Dr. Betül Düşünceli süpervizörlüğünde ücretsiz yüz yüze veya online psikolojik danışma hizmeti vermekteyim.",
+    "phone": "0551 037 27 77",
+    "email": "rumeysa.kiliclar@ogr.sakarya.edu.tr"
+  },
+  {
+    "slug": "edanur-kirca",
+    "name": "Edanur Kırca",
+    "title": "Psikolojik Danışman Adayı",
+    "supervisor": "Arş. Gör. Dr. Eda Biçener",
+    "service": "Bireyle Psikolojik Danışma",
+    "format": "Ücretsiz, yüz yüze, ortalama 7 seans psikolojik danışma hizmeti",
+    "description": "Sakarya Üniversitesi Rehberlik ve Psikolojik Danışmanlık lisans programı Bireyle Psikolojik Danışma dersi kapsamında Arş. Gör. Dr. Eda Biçener süpervizörlüğünde ücretsiz, yüz yüze, ortalama 7 seans psikolojik danışma hizmeti vermekteyim.",
+    "phone": "0543 787 2063",
+    "email": "edanur.kirca@ogr.sakarya.edu.tr",
+    "location": "Sakarya Üniversitesi, Hendek Eğitim Fakültesi"
+  }
+]
